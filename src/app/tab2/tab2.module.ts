@@ -13,8 +13,9 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab2PageRoutingModule
+    Tab2PageRoutingModule,
+    Tab2Page  // import standalone component here
   ],
-  declarations: [Tab2Page]
+  // Remove this line to fix the error:
 })
 export class Tab2PageModule {}
